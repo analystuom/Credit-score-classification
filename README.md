@@ -1,4 +1,4 @@
-# Credit Score Classification
+# 🏦 Credit Score Classification
 
 ## Project Overview
 This project implements a machine learning-based classification system to predict customer credit scores based on their banking details and credit-related data. The model categorizes customers into Good, Standard, or Poor credit score classes to support lending decisions.
@@ -39,7 +39,7 @@ Several data quality challenges were addressed:
    - Split Type_of_Loan into multiple binary columns
 
 ## Model Development
-We tested multiple classification algorithms:
+Multiple classification algorithms:
 
 - Logistic Regression
 - Gaussian Naive Bayes
@@ -71,32 +71,3 @@ Other ensemble methods (Bagging, Boosting) also performed well with accuracy sco
 3. **Data Collection**: The company should enhance their data collection systems to ensure more complete information capture and improve model performance further.
 
 4. **Feature Importance**: Focus on the most predictive features for credit scoring, which likely include payment behavior, credit utilization, and income levels.
-
-## Setup and Usage
-
-### Requirements
-```
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-xgboost
-lightgbm
-```
-
-### Installation
-```bash
-pip install -r requirements.txt
-```
-
-### Running the Project
-```bash
-python credit_score_classification.py
-```
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Author
-[Your Name]
